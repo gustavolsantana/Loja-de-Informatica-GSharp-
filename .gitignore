@@ -1,0 +1,18 @@
+# --- Visual Studio (Essencial) ---
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+packages/
+
+# --- Windows ---
+Thumbs.db
+Desktop.ini
+
+# --- Web / Geral ---
+.env
+*.log
