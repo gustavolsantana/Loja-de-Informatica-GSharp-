@@ -72,3 +72,5 @@ Desenvolvido por **Gustavo Santana** como parte do Projeto Integrador.
 ## 📄 Licença
 
 Este projeto é de uso acadêmico e livre para consulta.
+
+:)
