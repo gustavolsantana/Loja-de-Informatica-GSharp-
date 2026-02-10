@@ -17,10 +17,9 @@ O **GSharp** é uma solução híbrida que integra duas plataformas compartilhan
 ## 🚀 Funcionalidades
 
 ### 🖥️ Módulo Desktop (C# .NET)
-* **Controle de Acesso:** Login seguro para administradores e funcionários.
 * **Gestão de Produtos:** CRUD completo (Cadastrar, Ler, Editar, Excluir) de hardware e periféricos.
 * **Gestão de Pessoas:** Cadastro de clientes e funcionários com níveis de acesso.
-* **Relatórios:** Geração de relatórios de vendas e estoque (via Report Viewer).
+* **Relatórios:** Geração de relatórios de vendas e clientes (via Report Viewer).
 
 ### 🌐 Módulo Web (PHP)
 * **Catálogo Dinâmico:** Listagem de produtos atualizada em tempo real com o estoque.
@@ -36,7 +35,7 @@ O **GSharp** é uma solução híbrida que integra duas plataformas compartilhan
 * **Back-end Web:** PHP Nativo.
 * **Aplicação Desktop:** C# (Windows Forms), .NET Framework.
 * **Banco de Dados:** MySQL (Relacional).
-* **Ferramentas:** Visual Studio 2022, VS Code, XAMPP/WampServer.
+* **Ferramentas:** Visual Studio, VS Code e XAMPP.
 
 ---
 
@@ -51,7 +50,7 @@ O **GSharp** é uma solução híbrida que integra duas plataformas compartilhan
 1.  **Banco de Dados:**
     * Acesse a pasta `/Banco de dados`.
     * Importe o arquivo `GSharp (Físico).sql` ou `GSharp (BKP).sql` no seu gerenciador MySQL.
-    * *Nota: Verifique as credenciais de conexão nos arquivos `conecta.php` (Web) e `App.config` (Desktop).*
+    * *Nota: Verifique as credenciais de conexão nos arquivos `conecta.php` (Web) e `classConexao.cs` (Desktop).*
 
 2.  **Executar o Desktop:**
     * Abra o arquivo `GSharp.sln` na pasta `/Desktop`.
