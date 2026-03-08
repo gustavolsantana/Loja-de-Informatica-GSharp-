@@ -1,11 +1,10 @@
 <?php
 $host = "mysql.railway.internal";
-$porta = 3306;
 $usuario = "root";
-$senha = "ezNjbEHnnOXLLsgKgJm5cMsIMweMlyha";
+$senha = "ezNjbEHnnOXLLsgKgJmScMslMweMlyha";
 $banco = "railway";
 
-$conexao = new mysqli($host, $usuario, $senha, $banco, $porta);
+$conexao = new mysqli($host, $usuario, $senha, $banco);
 
 if ($conexao->connect_error) {
     die("Erro de conexão: " . $conexao->connect_error);
