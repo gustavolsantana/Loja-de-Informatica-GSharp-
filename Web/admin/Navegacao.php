@@ -4,7 +4,7 @@
 
   $caminho = explode('/', $url_completa);
 
-  $url = "http://" . $_SERVER['HTTP_HOST'] . "/" . $caminho[1] . "/" . $caminho[2] . "/" . $caminho[3];
+  $url = "http://" . $_SERVER['HTTP_HOST'] . "/" . $caminho[1] . "/" . $caminho[2];
 
 ?>
 
