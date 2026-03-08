@@ -25,9 +25,6 @@ if (!isset($_SESSION)) {
   <link rel="stylesheet" href="assets/css/signin.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 
-  <!-- FAVICON -->
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-
   <!-- CSS   -->
   <link rel="stylesheet" href="custom/css/style.css">
 

@@ -27,9 +27,7 @@ include_once '../user_common.php';
     <!-- CUSTOMIZAÇÃO DO TEMPLATE -->
     <link rel="stylesheet" href="../../assets/css/dashboard.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
-
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="../../custom/css/style.css">
 

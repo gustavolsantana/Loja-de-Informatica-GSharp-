@@ -20,7 +20,6 @@ include_once '../user_common.php';
     <link rel="stylesheet" href="../../assets/css/dashboard.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
 
-    <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../custom/css/styles.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
 
