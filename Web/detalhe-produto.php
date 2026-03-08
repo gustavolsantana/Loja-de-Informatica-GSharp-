@@ -82,7 +82,7 @@ if (isset($_GET['id_produto'])) {
                 <img src="<?php echo $caminho_imagem; ?>" alt="<?php echo $produto['nome']; ?>">
             </div>
             <div class="resumo-do-produto">
-                <div class="banner3"><img src="assets/img/mini-banner3.png" alt="BANNER3"></div>
+                <div class="banner3"><img src="assets/img/mini-banner3.png" alt="BANNER3"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2De1EHbIhepIVLHZ16bySE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
                 <div class="nome-do-produto"><?php echo $produto['nome']; ?></div>
                 <div class="estoque">Estoque: <?php echo $produto['estoque']; ?></div>
                 <div class="de-por"><?php echo $preco_de; ?> por:</div>
