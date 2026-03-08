@@ -145,7 +145,8 @@ if (isset($_SESSION['vistos']) && is_array($_SESSION['vistos']) && !empty($_SESS
                     <img src="assets/img/mini-banner.png" alt="Mini Banner 1">
                     <img src="assets/img/mini-banner2.png" alt="Mini Banner 2">
                 </div>
-                <div class="musica" style="margin-top: 25px;">
+                <div class="musica" style="margin-top: 25px; text-align: center;">
+                    <h5>Talvez você precise de mim :)</h5>
                     <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2De1EHbIhepIVLHZ16bySE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
             </div>
