@@ -1,14 +1,15 @@
 <?php
-
-$host = "trolley.proxy.rlwy.net";
-$porta = 42537;
+$host = "mysql.railway.internal";
+$porta = 3306;
 $usuario = "root";
-$senha = "ezNjbEHnnOXLLsgKgJmScMslMweMlyha";
+$senha = "ezNjbEHnnOXLLsgKgJm5cMsIMweMlyha";
 $banco = "railway";
 
-// Se você usa mysqli, adicione a porta no final da conexão:
 $conexao = new mysqli($host, $usuario, $senha, $banco, $porta);
 
 if ($conexao->connect_error) {
     die("Erro de conexão: " . $conexao->connect_error);
+} else {
+    echo "Conexão bem-sucedida!";
 }
+?>
